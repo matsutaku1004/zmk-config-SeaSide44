@@ -45,10 +45,10 @@
 
         default_layer {
             bindings = <
-&kp ESCAPE    &kp Q             &kp W         &kp E         &kp R                 &kp T                                        &kp Y           &kp U  &lt 5 I            &kp O             &lt 6 P          &kp DEL
+&kp ESCAPE    &kp Q             &kp W         &kp E         &kp R                 &kp T                                        &kp Y           &kp U  &lt 4 I            &kp O             &lt 5 P          &kp DEL
 &kp TAB       &kp A             &kp S         &kp D         &kp F                 &kp G                                        &kp H           &kp J  &kp K              &kp L             &lt 3 SEMICOLON  &lt 2 AT
 &kp LEFT_GUI  &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                 &kp B                                        &kp N           &kp M  &kp LESS_THAN      &kp GREATER_THAN  &lt 3 SLASH      &lt 2 INT_YEN
-                                &kp LEFT_ALT  &kp LEFT_GUI  &mt LCTRL LANGUAGE_1  &lt 2 SPACE  &lt 2 LANG2    &lt 3 BACKSPACE  &lt 3 KP_ENTER         &lt 5 PRINTSCREEN
+                                &kp LEFT_ALT  &kp LEFT_GUI  &mt LCTRL LANGUAGE_1  &lt 2 SPACE  &lt 2 LANG2    &lt 3 BACKSPACE  &lt 3 KP_ENTER         &lt 4 PRINTSCREEN
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -81,15 +81,6 @@
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
-        };
-
-        MOUSE {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans  &kp N0
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans  &kp N1
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans  &kp N2
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans            &trans
-            >;
         };
 
         SCROLL {
