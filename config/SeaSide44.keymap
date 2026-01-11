@@ -72,10 +72,10 @@
 
         NUM {
             bindings = <
-&trans  &kp DOUBLE_QUOTES  &kp N7        &kp N8        &kp N9        &kp LS(ASTERISK)                       &kp LS(N9)         &kp EXCLAMATION  &kp LS(N7)     &kp DOLLAR        &kp PERCENT       &trans
-&trans  &kp LS(SEMICOLON)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LS(RIGHT_BRACE)                    &kp RIGHT_BRACKET  &kp MINUS        &kp PLUS       &kp HASH          &kp SINGLE_QUOTE  &trans
-&trans  &kp EQUAL          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp QUESTION                           &kp PIPE           &kp LS(MINUS)    &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION      &trans
-                           &kp N0        &trans        &trans        &trans               &trans    &trans  &trans                              &trans
+&trans  &kp DOUBLE_QUOTES  &kp N7        &kp N8        &kp N9        &kp LS(ASTERISK)                     &kp LS(N9)         &kp EXCLAMATION  &kp LS(N7)     &kp DOLLAR        &kp PERCENT       &trans
+&trans  &kp LS(SEMICOLON)  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp RIGHT_BRACKET                    &kp RIGHT_BRACKET  &kp MINUS        &kp PLUS       &kp HASH          &kp SINGLE_QUOTE  &trans
+&trans  &kp PIPE           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp QUESTION                         &kp PIPE           &kp LS(MINUS)    &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION      &trans
+                           &kp N0        &kp PERIOD    &trans        &trans             &trans    &trans  &trans                              &trans
             >;
         };
 
