@@ -57,7 +57,7 @@
             label = "Eisu / Kana";
 
             #binding-cells = <0>;
-            bindings = <&kp LANGUAGE_1　&kp LANGUAGE_2>;
+            bindings = <&kp LANGUAGE_1 &kp LANGUAGE_2>;
         };
     };
 
